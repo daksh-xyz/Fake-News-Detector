@@ -81,10 +81,10 @@ fake-news-detector/
 
 ## Example Screenshots  
 
-![Home Screen](#)  
+### Home Screen 
 ![home.png](images/home.png) 
-
-![Prediction Results](#)  
+---
+### Prediction Results
 ![success.png](images/success.png)  
 
 ---
