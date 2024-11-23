@@ -1,6 +1,6 @@
 # Fake News Detector  
 
-Welcome to the **Fake News Detector**, a Python-based application designed to detect fake news articles using machine learning. This app provides a user-friendly interface hosted on **Streamlit**, enabling users to paste news and verify its authenticity.
+Welcome to the **Fake News Detector**, a Python-based application designed to detect fake news articles using machine learning. This app provides a user-friendly interface hosted on **Streamlit**, enabling users to paste news articles and verify their authenticity.
 
 ---
 
@@ -82,10 +82,10 @@ fake-news-detector/
 ## Example Screenshots  
 
 ![Home Screen](#)  
-_A sample image of the app’s homepage._  
+![home.png](images/home.png) 
 
 ![Prediction Results](#)  
-_Visualization of prediction results._  
+![success.png](images/success.png)  
 
 ---
 
@@ -101,7 +101,7 @@ _Visualization of prediction results._
 ## Credits  
 
 - **Dataset:** [Kaggle](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)  
-- **Libraries:** Scikit-learn, Pandas, NumPy, Joblib, re, string, Streamlit  
+- **Libraries:** Scikit-learn, Pandas, Joblib, re, string, Streamlit  
 
 ---  
 
