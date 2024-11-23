@@ -16,7 +16,7 @@ Welcome to the **Fake News Detector**, a Python-based application designed to de
 
 ## Dataset  
 The dataset used to train the models is publicly available on Kaggle:  
-[Insert Kaggle Dataset Link Here]([https://kaggle.com/dummy-link](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)  
+[Insert Kaggle Dataset Link Here](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)  
 
 ---
 
