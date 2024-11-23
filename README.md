@@ -1,6 +1,6 @@
 # Fake News Detector  
 
-Welcome to the **Fake News Detector**, a Python-based application designed to detect fake news articles using machine learning. This app provides a user-friendly interface hosted on **Streamlit**, enabling users to upload text or paste content and verify its authenticity.
+Welcome to the **Fake News Detector**, a Python-based application designed to detect fake news articles using machine learning. This app provides a user-friendly interface hosted on **Streamlit**, enabling users to paste news and verify its authenticity.
 
 ---
 
@@ -16,7 +16,7 @@ Welcome to the **Fake News Detector**, a Python-based application designed to de
 
 ## Dataset  
 The dataset used to train the models is publicly available on Kaggle:  
-[Insert Kaggle Dataset Link Here](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)  
+[fake-news-detection](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)  
 
 ---
 
@@ -45,8 +45,9 @@ The dataset used to train the models is publicly available on Kaggle:
 ## Usage  
 
 1. Launch the app by running `streamlit run app.py`.  
-2. Choose between text input or file upload.  
-3. View the prediction results and confidence scores from each model.  
+2. Copy and paste your news in the text inout area.
+3. Click on the predict button. 
+4. View the prediction results and confidence scores from each model.  
 
 ---
 
@@ -68,11 +69,12 @@ Each model was trained on pre-processed data.
 
 ```plaintext
 fake-news-detector/
-├── input/               # Folder for dataset (if included)
-├── models/             # Trained models saved as .pkl files
-├── app.py              # Streamlit app code
-├── requirements.txt    # Required Python packages
-└── README.md           # Project documentation
+├── input/                  # Folder for dataset
+├── models/                 # Trained models saved as .joblib files
+├── app.py                  # Streamlit app code
+├── fake_news_detection.py  # Model training code
+├── requirements.txt        # Required Python packages
+└── README.md               # Project documentation
 ```
 
 ---
@@ -99,7 +101,7 @@ _Visualization of prediction results._
 ## Credits  
 
 - **Dataset:** [Kaggle](https://www.kaggle.com/datasets/jainpooja/fake-news-detection)  
-- **Libraries:** Scikit-learn, Pandas, NumPy, Streamlit  
+- **Libraries:** Scikit-learn, Pandas, NumPy, Joblib, re, string, Streamlit  
 
 ---  
 
