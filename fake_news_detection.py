@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import re
 import string
+import os
 
 print("running dependency")
 
@@ -56,8 +57,6 @@ def train_models():
 
     RFC = RandomForestClassifier(random_state=0)
     RFC.fit(xv_train, y_train)
-
-    import os
 
     # Define the folder path
     folder_path = "models"
