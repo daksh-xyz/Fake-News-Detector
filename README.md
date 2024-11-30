@@ -72,6 +72,7 @@ fake-news-detector/
 ├── input/                  # Folder for dataset
 ├── models/                 # Trained models saved as .joblib files
 ├── app.py                  # Streamlit app code
+├── evaluation.py           # Evaluation metrics for pre-trained models
 ├── fake_news_detection.py  # Model training code
 ├── requirements.txt        # Required Python packages
 └── README.md               # Project documentation
